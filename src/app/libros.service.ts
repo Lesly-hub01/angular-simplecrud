@@ -6,7 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class LibrosService{
-    url = 'http://localhost:85/angularPhp/';
+    //url = 'http://localhost:8080/angularPhp/';
+    url = 'https://cdssi.com.mx/AngularPhp/';
 
     constructor(private http: HttpClient){}
     
